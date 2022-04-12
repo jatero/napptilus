@@ -17,6 +17,8 @@ import lombok.NoArgsConstructor;
 @Table(name="Brands")
 public class Brand {
 
+    static final long serialVersionUID = 1511590038487230103L;
+    
 	@Id
 	private Integer id;
 	
